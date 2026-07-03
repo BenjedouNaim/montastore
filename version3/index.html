@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MONTA — Édition Metlaoui | Prêt-à-porter Homme</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Découvrez MONTA, l'adresse incontournable du prêt-à-porter masculin et du streetwear à Metlaoui, Tunisie. Une sélection éditoriale exclusive pour un style urbain affirmé.">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://montastore.tn">
+  <meta property="og:title" content="MONTA — Édition Metlaoui | Prêt-à-porter Homme">
+  <meta property="og:description" content="Découvrez MONTA, l'adresse incontournable du prêt-à-porter masculin et du streetwear à Metlaoui, Tunisie. Une sélection éditoriale exclusive pour un style urbain affirmé.">
+  <meta property="og:image" content="https://placehold.co/1200x630/1a1a1a/ffffff?text=MONTA+Metlaoui">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MONTA — Édition Metlaoui | Prêt-à-porter Homme">
+  <meta name="twitter:description" content="Découvrez MONTA, l'adresse incontournable du prêt-à-porter masculin et du streetwear à Metlaoui, Tunisie. Une sélection éditoriale exclusive pour un style urbain affirmé.">
+  <meta name="twitter:image" content="https://placehold.co/1200x630/1a1a1a/ffffff?text=MONTA+Metlaoui">
+
+  <!-- Theme Color and Favicon -->
+  <meta name="theme-color" content="#1a1a1a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22serif%22 font-weight=%22bold%22 fill=%22%231a1a1a%22>M</text></svg>">
+
+  <!-- Google Fonts Preconnect and Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- External Script -->
+  <script src="script.js" defer></script>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "MONTA",
+    "image": "https://placehold.co/600x750?text=MONTA+Metlaoui",
+    "telephone": "+216 24 361 489",
+    "url": "https://montastore.tn",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Metlaoui",
+      "addressRegion": "Gouvernorat de Gafsa",
+      "addressCountry": "Tunisie"
+    },
+    "priceRange": "TND"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- 1. Masthead Bar -->
+  <div id="masthead-bar">
+    <span>MONTA — ÉDITION METLAOUI · N°01 · Commande WhatsApp 24 361 489</span>
+  </div>
+
+  <!-- 2. Site Header (Sticky Navbar) -->
+  <header id="site-header">
+    <div class="header-inner">
+      <div class="logo-container">
+        <a href="#" class="logo" aria-label="MONTA Accueil">MONTA</a>
+        <span class="logo-caption">Prêt-à-porter — Metlaoui</span>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="#hero" aria-label="Accéder à la section Accueil">Accueil</a>
+        <a href="#shop" aria-label="Accéder à la section Boutique">Boutique</a>
+        <a href="#lookbook" aria-label="Accéder à la section Nouveautés">Nouveautés</a>
+        <a href="#categories" aria-label="Accéder à la section Catégories">Catégories</a>
+        <a href="#contact" aria-label="Accéder à la section Contact">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Search Toggle & Search Bar -->
+        <div class="search-wrapper">
+          <button id="search-toggle" aria-label="Ouvrir la barre de recherche" aria-expanded="false" aria-controls="search-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+          <div id="search-container" class="search-container" aria-hidden="true">
+            <form role="search" id="search-form" class="search-form">
+              <label for="search-input" class="sr-only">Rechercher un produit</label>
+              <input type="search" id="search-input" placeholder="Rechercher..." aria-label="Rechercher sur la boutique">
+            </form>
+          </div>
+        </div>
+
+        <!-- Cart Toggle -->
+        <button id="cart-toggle" aria-label="Afficher le panier d'achat" aria-expanded="false" aria-controls="cart-drawer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag" aria-hidden="true">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span id="cart-count">0</span>
+        </button>
+
+        <!-- Menu Toggle (Hamburger) -->
+        <button id="menu-toggle" aria-label="Ouvrir le menu de navigation mobile" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Drawer -->
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <nav class="mobile-nav-links" aria-label="Navigation mobile">
+        <a href="#hero" class="mobile-nav-link" aria-label="Accéder à la section Accueil">Accueil</a>
+        <a href="#shop" class="mobile-nav-link" aria-label="Accéder à la section Boutique">Boutique</a>
+        <a href="#lookbook" class="mobile-nav-link" aria-label="Accéder à la section Nouveautés">Nouveautés</a>
+        <a href="#categories" class="mobile-nav-link" aria-label="Accéder à la section Catégories">Catégories</a>
+        <a href="#contact" class="mobile-nav-link" aria-label="Accéder à la section Contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 3. Hero Section -->
+    <section id="hero">
+      <!-- Decorative rotated spine text running vertical height of viewport -->
+      <div class="hero-spine" aria-hidden="true">
+        <span>ÉDITION 01 — METLAOUI — PRÊT-À-PORTER — ÉDITION 01 — METLAOUI — PRÊT-À-PORTER — ÉDITION 01 — METLAOUI — PRÊT-À-PORTER —</span>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <span class="hero-eyebrow">Prêt-à-porter Homme — Metlaoui</span>
+        <h1 class="hero-title">
+          <span class="hero-line">LE STYLE</span>
+          <span class="hero-line">S'ÉCRIT ICI.</span>
+        </h1>
+        <p class="hero-subline">Capsule urbaine &amp; essentiels streetwear. Conçu pour inspirer, taillé pour le quotidien de la jeunesse tunisienne.</p>
+        
+        <div class="hero-actions-container">
+          <a href="#shop" id="shop-cta" class="btn btn-primary" aria-label="Découvrir les produits de la boutique">Voir la boutique</a>
+          <a href="https://wa.me/21624361489" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" aria-label="Prendre contact et commander via WhatsApp">Commander sur WhatsApp</a>
+        </div>
+      </div>
+
+      <!-- Hero Visuals -->
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=1600&auto=format&fit=crop" alt="Style de rue MONTA à Metlaoui, Tunisie" class="hero-image">
+        <div class="hero-credit" aria-label="Crédit photo">Metlaoui, 2026</div>
+      </div>
+    </section>
+
+    <!-- 4. Categories Section -->
+    <section id="categories">
+      <div class="section-rubric">
+        <span class="rubric-label">Sommaire des collections</span>
+        <h2 class="rubric-title">Index des Catégories</h2>
+      </div>
+
+      <div class="categories-index">
+        <!-- Category Card 01 - Haut -->
+        <a href="#shop" class="category-card" data-category="haut" aria-label="Filtrer par Hauts (T-shirts, hoodies, sweats, polos)">
+          <div class="cat-card-header">
+            <span class="cat-index">01</span>
+            <h3 class="cat-name">Hauts</h3>
+          </div>
+          <div class="cat-media-wrapper">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=600&auto=format&fit=crop" alt="Collection de hauts et sweats" loading="lazy" class="cat-image">
+          </div>
+          <div class="cat-card-footer">
+            <span class="cat-items">T-shirts, hoodies, sweats, polos</span>
+            <span class="cat-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+
+        <!-- Category Card 02 - Vestes -->
+        <a href="#shop" class="category-card" data-category="vestes" aria-label="Filtrer par Vestes (Varsity, doudounes, cuir, coupe-vent)">
+          <div class="cat-card-header">
+            <span class="cat-index">02</span>
+            <h3 class="cat-name">Vestes</h3>
+          </div>
+          <div class="cat-media-wrapper">
+            <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=600&auto=format&fit=crop" alt="Collection de vestes et blousons" loading="lazy" class="cat-image">
+          </div>
+          <div class="cat-card-footer">
+            <span class="cat-items">Varsity, doudounes, cuir, coupe-vent</span>
+            <span class="cat-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+
+        <!-- Category Card 03 - Bas -->
+        <a href="#shop" class="category-card" data-category="bas" aria-label="Filtrer par Bas (Jeans, cargos, joggers)">
+          <div class="cat-card-header">
+            <span class="cat-index">03</span>
+            <h3 class="cat-name">Bas</h3>
+          </div>
+          <div class="cat-media-wrapper">
+            <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=600&auto=format&fit=crop" alt="Collection de bas, jeans et cargos" loading="lazy" class="cat-image">
+          </div>
+          <div class="cat-card-footer">
+            <span class="cat-items">Jeans, cargos, joggers</span>
+            <span class="cat-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+
+        <!-- Category Card 04 - Chaussures -->
+        <a href="#shop" class="category-card" data-category="chaussures" aria-label="Filtrer par Chaussures (Sneakers, chaussures sport)">
+          <div class="cat-card-header">
+            <span class="cat-index">04</span>
+            <h3 class="cat-name">Chaussures</h3>
+          </div>
+          <div class="cat-media-wrapper">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=600&auto=format&fit=crop" alt="Sélection de sneakers urbaines" loading="lazy" class="cat-image">
+          </div>
+          <div class="cat-card-footer">
+            <span class="cat-items">Sneakers, chaussures sport</span>
+            <span class="cat-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+
+        <!-- Category Card 05 - Accessoires -->
+        <a href="#shop" class="category-card" data-category="accessoires" aria-label="Filtrer par Accessoires (Casquettes, essentials)">
+          <div class="cat-card-header">
+            <span class="cat-index">05</span>
+            <h3 class="cat-name">Accessoires</h3>
+          </div>
+          <div class="cat-media-wrapper">
+            <img src="https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=600&auto=format&fit=crop" alt="Accessoires de mode et casquettes" loading="lazy" class="cat-image">
+          </div>
+          <div class="cat-card-footer">
+            <span class="cat-items">Casquettes, essentials</span>
+            <span class="cat-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 5. Shop Section -->
+    <section id="shop">
+      <div class="section-rubric">
+        <span class="rubric-label">Pièces Sélectionnées</span>
+        <h2 class="rubric-title">La Boutique</h2>
+      </div>
+
+      <!-- Controls: Filters and Sorting -->
+      <div class="shop-controls">
+        <div id="filter-bar" class="filter-bar" role="group" aria-label="Filtrer la boutique par catégorie">
+          <button class="filter-btn active" data-filter="all" aria-label="Afficher tous les articles">Tout</button>
+          <button class="filter-btn" data-filter="haut" aria-label="Afficher uniquement les hauts">Haut</button>
+          <button class="filter-btn" data-filter="vestes" aria-label="Afficher uniquement les vestes">Vestes</button>
+          <button class="filter-btn" data-filter="bas" aria-label="Afficher uniquement les bas">Bas</button>
+          <button class="filter-btn" data-filter="chaussures" aria-label="Afficher uniquement les chaussures">Chaussures</button>
+          <button class="filter-btn" data-filter="accessoires" aria-label="Afficher uniquement les accessoires">Accessoires</button>
+        </div>
+
+        <div class="sort-bar">
+          <label for="sort-select" class="sr-only">Trier par</label>
+          <select id="sort-select" aria-label="Trier les produits">
+            <option value="newest">Nouveautés</option>
+            <option value="price-asc">Prix croissant</option>
+            <option value="price-desc">Prix décroissant</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Product Grid -->
+      <div id="product-grid" class="product-grid"></div>
+
+      <!-- Product card template (rendered by script.js), styled as a contact-sheet frame:
+      <article class="product-card" data-category="haut" data-price="89">
+        <div class="product-media"><span class="product-frame-index">04</span>
+          <img src="https://placehold.co/600x750/1a1a1a/cccccc?text=Hoodie+Archive+Noir" alt="Hoodie Archive Noir" loading="lazy"><span class="badge">Nouveau</span>
+          <button class="quick-add" data-id="1" aria-label="Ajouter au panier">+ Panier</button></div>
+        <div class="product-info">
+          <h3 class="product-name">Hoodie Archive Noir</h3>
+          <p class="product-cat">Haut</p>
+          <p class="product-price">89 TND</p>
+        </div>
+      </article> -->
+    </section>
+
+    <!-- 6. Lookbook Section -->
+    <section id="lookbook">
+      <div class="section-rubric">
+        <span class="rubric-label">Captures Journalières</span>
+        <h2 class="rubric-title">Planche Contact</h2>
+      </div>
+
+      <div class="lookbook-strip">
+        <!-- Look Card 01 -->
+        <div class="look-card">
+          <div class="look-media">
+            <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=600&auto=format&fit=crop" alt="Silhouette urbaine - Planche 01" loading="lazy">
+          </div>
+          <div class="look-caption">Pl. 01 — Vendredi</div>
+        </div>
+
+        <!-- Look Card 02 -->
+        <div class="look-card">
+          <div class="look-media">
+            <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=600&auto=format&fit=crop" alt="Volume vestimentaire et textures - Planche 02" loading="lazy">
+          </div>
+          <div class="look-caption">Pl. 02 — Samedi</div>
+        </div>
+
+        <!-- Look Card 03 -->
+        <div class="look-card">
+          <div class="look-media">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=600&auto=format&fit=crop" alt="Focus accessoires et sneakers - Planche 03" loading="lazy">
+          </div>
+          <div class="look-caption">Pl. 03 — Dimanche</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. About Section -->
+    <section id="about">
+      <div class="about-grid">
+        <!-- Visual component -->
+        <div class="about-media">
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop" alt="Intérieur de la boutique MONTA à Metlaoui, Tunisie" loading="lazy" class="about-image">
+        </div>
+
+        <!-- Editorial component -->
+        <div class="about-editorial">
+          <blockquote class="about-quote">
+            "Notre sélection ne suit pas le mouvement. Elle le définit pour toute la scène de Metlaoui."
+          </blockquote>
+          
+          <div class="about-text">
+            <p>Implanté fièrement au cœur de Metlaoui, MONTA s'établit comme le rendez-vous incontournable de la culture streetwear et du prêt-à-porter masculin. Notre boutique propose un espace moderne où se mêlent portants épurés, silhouettes de mannequins travaillées et détails industriels soignés.</p>
+            <p>Forts d'une communauté soudée de plus de 7 400 fidèles sur les réseaux sociaux, nous assurons des arrivages hebdomadaires exclusifs. Chaque drop est pensé comme un éditorial de mode indépendant : des pièces fortes, des coupes contemporaines, et un engagement absolu sur la qualité.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Contact Section -->
+    <section id="contact">
+      <div class="section-rubric">
+        <span class="rubric-label">Colophon &amp; Coordonnées</span>
+        <h2 class="rubric-title">Contact &amp; Accès</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-masthead">
+          <div class="masthead-group">
+            <span class="masthead-label">Adresse</span>
+            <p class="masthead-value">Metlaoui, Tunisie<br>Gouvernorat de Gafsa</p>
+          </div>
+
+          <div class="masthead-group">
+            <span class="masthead-label">Ligne Directe</span>
+            <p class="masthead-value">
+              <a href="tel:+21624361489" class="contact-large-link" aria-label="Appeler la boutique au +216 24 361 489">+216 24 361 489</a>
+            </p>
+          </div>
+
+          <div class="masthead-group">
+            <span class="masthead-label">Commandes &amp; WhatsApp</span>
+            <p class="masthead-value">
+              <a href="https://wa.me/21624361489" class="contact-large-link" target="_blank" rel="noopener noreferrer" aria-label="Envoyer un message WhatsApp pour passer commande">wa.me/21624361489</a>
+            </p>
+          </div>
+
+          <div class="masthead-group">
+            <span class="masthead-label">Réseaux de messagerie</span>
+            <p class="masthead-value">
+              <a href="https://m.me/montastore" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Envoyer un message via Facebook Messenger">Facebook Messenger</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-details">
+          <div class="opening-hours-wrapper">
+            <span class="masthead-label">Horaires de la boutique</span>
+            <table class="hours-table">
+              <thead>
+                <tr>
+                  <th scope="col">Jour</th>
+                  <th scope="col">Créneaux</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lundi — Samedi</td>
+                  <td>09:00 — 19:30</td>
+                </tr>
+                <tr>
+                  <td>Dimanche</td>
+                  <td>10:00 — 16:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Embedded Map Location -->
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13149.880016843477!2d8.389278065403212!3d34.32599298442871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f86af1c99be821%3A0x6a59600e127392e2!2sMetlaoui!5e0!3m2!1sfr!2stn!4v1700000000000!5m2!1sfr!2stn" 
+              width="100%" 
+              height="300" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade" 
+              title="Carte de Metlaoui - Localiser la boutique MONTA">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 9. Site Footer -->
+  <footer id="site-footer">
+    <div class="footer-upper">
+      <div class="footer-brand">
+        <span class="footer-logo">MONTA</span>
+        <p class="footer-slogan">L'expression urbaine, l'esthétique minimale, l'audace locale.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Liens rapides du pied de page">
+        <a href="#hero" aria-label="Retourner à l'accueil">Accueil</a>
+        <a href="#shop" aria-label="Accéder à la boutique">Boutique</a>
+        <a href="#lookbook" aria-label="Voir la planche contact">Nouveautés</a>
+        <a href="#categories" aria-label="Consulter l'index des catégories">Catégories</a>
+        <a href="#contact" aria-label="Nous joindre ou nous trouver">Contact</a>
+      </nav>
+
+      <div class="footer-socials">
+        <span class="socials-title">Suivez l'Édition</span>
+        <div class="socials-links">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Suivre MONTA sur Instagram">Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Suivre MONTA sur Facebook">Facebook</a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="Suivre MONTA sur TikTok">TikTok</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-lower">
+      <span class="footer-colophon">© 2026 MONTA — Édition Metlaoui. Tous droits réservés.</span>
+      <span class="footer-signature">Metlaoui Studio.</span>
+    </div>
+  </footer>
+
+  <!-- 10. Floating Elements -->
+  
+  <!-- WhatsApp Floating Action Button -->
+  <a href="https://wa.me/21624361489?text=Salut%20MONTA!%20Je%20veux%20commander%20:" 
+     id="whatsapp-fab" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Contacter directement le shop par WhatsApp pour passer commande">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle" aria-hidden="true">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+    </svg>
+  </a>
+
+  <!-- Cart Drawer -->
+  <div id="cart-drawer" class="cart-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <div class="cart-header">
+      <h2 id="cart-title">Mon Panier</h2>
+      <button id="cart-close" aria-label="Fermer le panier d'achat">&times;</button>
+    </div>
+    
+    <div id="cart-items" class="cart-items">
+      <p class="empty-message">Votre panier est vide.</p>
+    </div>
+    
+    <div class="cart-footer">
+      <div id="cart-total" class="cart-total">
+        <span>Total :</span>
+        <span class="total-amount">0 TND</span>
+      </div>
+      <button id="checkout-whatsapp" class="btn btn-checkout" aria-label="Finaliser la commande sur WhatsApp">
+        Commander via WhatsApp
+      </button>
+    </div>
+  </div>
+
+  <!-- Cart Overlay Backdrop -->
+  <div id="cart-overlay" class="cart-overlay" aria-hidden="true"></div>
+
+  <!-- Product Quick-View Modal -->
+  <dialog id="product-modal" class="product-modal" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Fermer la vue produit">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </dialog>
+
+</body>
+</html>
